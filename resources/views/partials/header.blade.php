@@ -7,9 +7,6 @@
         <div class="collapse navbar-collapse justify-content-center">
             <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">Homepage</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="#">Comics</a>
             </li>
             <li class="nav-item">
