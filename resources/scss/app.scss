@@ -39,6 +39,29 @@ header {
     background-size: cover;
 }
 
+/* Main */
+main {
+    background-color: $color-dark;
+
+    .content-title {
+        background-color: $color-primary;
+        color: $color-light;
+        font-family: $font-primary;
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-size: 28px;
+        padding: 15px 30px;
+        width: fit-content;
+        margin-top: -88px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        color: $color-light;
+    }
+}
+
+/* Footer */
 footer {
     background-color: $color-dark;
     color: white;
