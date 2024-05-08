@@ -18,3 +18,13 @@ Route::get('/news', function () {
 Route::get('/shop', function () {
     return view('shop');
 })->name('shop');
+
+Route::get('/product/{id}', function ($id) {
+    $comics = config('comics');
+    if (isset($comics[$id])) {
+        $comic = $comics[$id];
+        return view('product', ['comic' => $comic]);
+    } else {
+        abort(404);
+    }
+})->name('product');
