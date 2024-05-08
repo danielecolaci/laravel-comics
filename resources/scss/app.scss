@@ -1,14 +1,46 @@
 @import '~bootstrap/scss/bootstrap';
+@import 'variables';
 
+
+/* Header */
 header {
+    border-top: 25px solid $color-primary;
+    height: 115px;
+    background-color: $color-light;
+    font-family: $font-primary;
+    text-transform: uppercase;
+    font-weight: bolder;
+
     .navbar-brand {
         margin-right: 2rem;
     }
 
+    a {
+        padding-bottom: 28px;
+        color: $color-secondary;
+    }
+
+    .search {
+        border-bottom: 2px solid $color-primary;
+        color: $color-secondary;
+        padding-bottom: 5px;
+    }
+
+    input {
+        border: none;
+        text-align: right;
+    }
+}
+
+.jumbotron {
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/jumbotron.jpg);
+    background-size: cover;
 }
 
 footer {
-    background-color: black;
+    background-color: $color-dark;
     color: white;
 
     li {
@@ -21,7 +53,7 @@ footer {
 }
 
 .nav-active {
-    font-weight: bolder;
+    border-bottom: 5px solid $color-primary;
 }
 
 a {
