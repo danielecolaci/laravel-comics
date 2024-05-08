@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container p-5">
-        <div class="content-title">
+        <div class="content-title oswald">
             <h2>Comics</h2>
         </div>
         <div class="row">

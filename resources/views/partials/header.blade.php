@@ -1,4 +1,4 @@
-<header class="navbar navbar-expand-lg">
+<header class="navbar navbar-expand-lg oswald">
     <div class="container">
         <div class="navbar-brand">
             <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo" width="50" height="50">
